@@ -1,18 +1,15 @@
-# Pcap Malware File Analysis with Wireshark
+# Digital Forensics of a Pcap File Using Wireshark
 
-# Pcap File Link Address:
-https://www.malware-traffic-analysis.net/2025/06/13/2025-06-13-traffic-analysis-exercise.pcap.zip
+# Overview 
+In this Network Forensics project I will be using wireshark to analyze a provided packet capture. My process will involve anayzing traffic to identify a suspicious host,  its communication to uncover an attack, and then tracing the evidence to prove the attack was successful. Ultimately, I will identify the compromised machine, its MAC address, and the high-privilege user account whose credentials were stolen, demonstrating the full scope of the incident.
 
 
-# We will be answering these main questions:
 
-What is the IP address of the infected Windows client?
 
-What is the mac address of the infected Windows client?
 
-What is the host name of the infected Windows client?
 
-What is the user account name from the infected Windows client?
+
+# Wireshark Review 
 
 
 
@@ -67,3 +64,6 @@ So as we see below there is a TSG-REQ (ticket granting service request) packet. 
 
 # Project Source
 https://www.malware-traffic-analysis.net/2025/06/13/index.html
+
+# Pcap File Link Address:
+https://www.malware-traffic-analysis.net/2025/06/13/2025-06-13-traffic-analysis-exercise.pcap.zip
