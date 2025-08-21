@@ -46,38 +46,15 @@ What is the user account name from the infected Windows client?
 <img width="875" height="566" alt="Screenshot 2025-08-21 115631" src="https://github.com/user-attachments/assets/357c1df8-d76a-4dde-a4bf-34f2c7996da8" />
 
 
+4. What is the user account name from the infected Windows client?
 
+Answer: Adminstrator
 
+So as we see below there is a TSG-REQ (ticket granting service request) packet. Which proves the previous brute force attack was susccesful. 
 
+<img width="865" height="268" alt="Screenshot 2025-08-21 115217" src="https://github.com/user-attachments/assets/1819a7ef-067e-4a93-b4bf-744fd7425ab3" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<img width="1138" height="472" alt="Screenshot 2025-08-21 120136" src="https://github.com/user-attachments/assets/d4a252c6-5c2f-4f30-91e1-ca91019646ef" />
 
 
 
@@ -101,7 +78,7 @@ What is the user account name from the infected Windows client?
 
 
 # Conclusion
-The infected machine successfully brute-forced the password for the highly privileged administrator account and is now using that account's credentials to request access to other network resources (in this case, the cifs service on the domain controller). This is a severe compromise indicating lateral movement.
+
 
 # Project Source
 https://www.malware-traffic-analysis.net/2025/06/13/index.html
