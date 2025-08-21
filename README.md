@@ -5,7 +5,7 @@
 
 
 # Overview 
-In this Network Forensics project I will be using wireshark to analyze a provided packet capture. My process will involve anayzing traffic to identify a suspicious host,  its communication to uncover an attack, and then tracing the evidence to prove the attack was successful. Ultimately, I will identify the compromised machine, its MAC address, and the high-privilege user account whose credentials were stolen, demonstrating the full scope of the incident.
+In this Network Forensics project I will be using wireshark to analyze a provided packet capture. My process will involve anayzing traffic to identify a suspicious host,  its communication to uncover an attack, and then tracing the evidence to prove the attack was successful. Ultimately, I will identify the compromised machine, its spoofed and real MAC address, and the high-privilege user account whose credentials were stolen, demonstrating the full scope of the incident.
 
 
 
