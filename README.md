@@ -1,5 +1,9 @@
 # Digital Forensics of a Pcap File Using Wireshark
 
+
+
+
+
 # Overview 
 In this Network Forensics project I will be using wireshark to analyze a provided packet capture. My process will involve anayzing traffic to identify a suspicious host,  its communication to uncover an attack, and then tracing the evidence to prove the attack was successful. Ultimately, I will identify the compromised machine, its MAC address, and the high-privilege user account whose credentials were stolen, demonstrating the full scope of the incident.
 
@@ -17,9 +21,17 @@ In this Network Forensics project I will be using wireshark to analyze a provide
    
   Answer: 10.6.13.133
 
+  We look for conversations with either many requests or a suspicious amount of bytes. 
+  
   By filtering for kerberos traffic I identified the source IP generating a high volume of AS-REQ traffic. 
 
+<img width="1024" height="397" alt="Screenshot 2025-08-21 121253" src="https://github.com/user-attachments/assets/50189e15-2cec-4169-b9f1-604abbd04e66" />
+
+
 <img width="1734" height="612" alt="Screenshot 2025-08-21 114112" src="https://github.com/user-attachments/assets/c3a03131-092c-4cba-983f-2aaec392987d" />
+
+
+
 
 
 2. What is the MAC address of the infected Windows client?
