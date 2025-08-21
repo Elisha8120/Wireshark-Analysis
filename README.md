@@ -34,15 +34,33 @@ In this Network Forensics project I will be using wireshark to analyze a provide
 
 
 
+
+
+
+
 2. What is the MAC address of the infected Windows client?
 
-   Answer: 24:77:03:91:57:61
+   Answer: 24:77:03:ac:97:df
 
-    I'm able to use kerberos or others like dns to find the infected windows Client.
 
-    More Specifically by Examining the ethernet header of a malicious packet from the infected IP
+   We use ARP protocol to find the actual Physical MAC address of the network interface. In other images we find varying MAC addresses like 24:77:03:91:57:61 which was likely spoofed by the malware as an evasion technique
+
+   I'm also able to use kerberos or others like dns to find the infected windows Client.
+
+    And to find the MAC address we examine the ethernet header of a malicious packet from the infected IP
+
+
+<img width="801" height="601" alt="image" src="https://github.com/user-attachments/assets/14a91f19-7909-4630-803b-e76df42ff913" />
+
 
 <img width="1510" height="475" alt="Screenshot 2025-08-21 122638" src="https://github.com/user-attachments/assets/1c3f36cf-470e-4415-b0b4-5188566345b0" />
+
+
+
+
+
+
+
 
 
 
@@ -53,6 +71,12 @@ In this Network Forensics project I will be using wireshark to analyze a provide
    Applying the NBNS traffic filter from the infected IP to discover it's host name which is located in Queries. 
 
 <img width="875" height="566" alt="Screenshot 2025-08-21 115631" src="https://github.com/user-attachments/assets/357c1df8-d76a-4dde-a4bf-34f2c7996da8" />
+
+
+
+
+
+
 
 
 4. What is the user account name from the infected Windows client?
