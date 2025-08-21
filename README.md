@@ -62,23 +62,8 @@ So as we see below there is a TSG-REQ (ticket granting service request) packet. 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 # Conclusion
-
+10.6.13.133 was compromised and was creating high AS-REQ traffic attempting to gain access to the "MASSFRICTION.COM" domain. I later find evidence of both a kerberos TGS-REG and an LDAP bind request which proves that they were successful with their brute-force spraying password attack. They were able to guess the "administrator" accounts password. They now have accesss to the account with highest privilage and have full control over the network. We also see proof of the attacker preforming reconnaissance and lateral movements. 
 
 # Project Source
 https://www.malware-traffic-analysis.net/2025/06/13/index.html
